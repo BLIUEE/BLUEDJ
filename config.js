@@ -1,10 +1,10 @@
 /**
- * Ultimate Music Bot - 
+ * Blue DJ - 
  * 
  * @fileoverview 
  * @module ConfigurationManager
  * @version 1.0.0
- * @author GlaceYT
+ * @author Blue
  */
 
 const EnvironmentVariableProcessor = require('process').env;
@@ -30,9 +30,9 @@ class EnterpriseConfigurationManager {
              * Configure your Lavalink server for audio processing
              */
             lavalink: {
-                host: EnvironmentVariableProcessor.LAVALINK_HOST || "87.106.62.92", 
-                port: EnvironmentVariableProcessor.LAVALINK_PORT || 11642,       
-                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "glace", 
+                host: EnvironmentVariableProcessor.LAVALINK_HOST || "23.80.88.110", 
+                port: EnvironmentVariableProcessor.LAVALINK_PORT || 9996,       
+                password: EnvironmentVariableProcessor.LAVALINK_PASSWORD || "BlueDJ", 
                 secure: EnvironmentVariableProcessor.LAVALINK_SECURE === 'true' || false
             },
             
@@ -101,4 +101,5 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
